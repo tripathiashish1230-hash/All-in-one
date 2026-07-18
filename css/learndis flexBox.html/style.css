@@ -1,0 +1,30 @@
+.container {
+    background-color: aliceblue;
+    display: flex;
+    height: 500px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+}
+
+.first {
+    background-color: red;
+}
+
+.second {
+    background-color: blue;
+}
+
+.third {
+    background-color: blueviolet;
+}
+
+.forth {
+    background-color: green;
+}

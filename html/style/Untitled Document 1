@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> style page </title>
+</head>
+<body style="background-color:skyblue;">
+
+<p> bina rang </p>
+<p style="color:green;"> mera rang </p>
+<P style="color:red;"> mere rang </p>
+<P style="font-size:70px; color:orange"> mere rang </p>
+<P style=" font-size:90PX; color:yellow; background-color:white"> mere rang </p>
+
+
+</body>
+</html>
+
+
+
+
+

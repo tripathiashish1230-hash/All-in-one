@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>  page formatting </title>
+</head>
+<body>
+
+<p> 1.this is my 
+           <u>
+           
+               <b style="color:red;">bold</b>
+           
+           </u>line 
+ </p>
+<p>2.this is my a 
+              <strong>strong tag</strong>
+              
+               line 
+</p>
+<p>3.this is my 
+            <b>
+            
+               <i style="color:hotpink;"> bold,color ialic</i>
+            
+            </b> 
+            
+            <small>tay line and small </small>
+    </p>
+    
+<p> 4.this is my  
+
+          <em>Emphasized</em>,  
+          
+          <del>Deleted text</del>
+          
+          <mark>or mark line</mark> 
+ </p>
+ <p> 5.this is my 
+             <ins>Inserted</ins>
+              line
+ </p>
+ 
+ 
+ <p> 6.the value of X<sub>2</sub> 
+ 
+ </p> 
+ <p> 7.the value of X<sup>2</sup>
+ 
+ </p>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+.first {
+    background-color: blue;
+    width: 500px;
+    height: 300px;
+    position: relative;
+    margin: auto;
+    margin-top: 150px;
+}
+
+.second {
+    background-color: red;
+    width: 500px;
+    height: 70px;
+}
+
+.third {
+    background-color: red;
+    width: 500px;
+    height: 70px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.forth {
+    background-color: white;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 13px;
+}
+
+}

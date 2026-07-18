@@ -1,0 +1,51 @@
+@media screen and (max-width:500px) {
+    .container {
+        width: 400px;
+        height: auto;
+        border-radius: 5px;
+        background-color: white;
+        padding: 10px;
+    }
+
+    h1 {
+        text-align: center;
+        margin: 10px;
+        border-radius: 15px;
+        color: rgb(43, 226, 226);
+    }
+
+
+    label {
+        display: inline-block;
+        width: 20%;
+        padding: 5%;
+        font-size: 13px;
+        font-weight: 900;
+        color: rgba(255, 251, 0, 0.521);
+    }
+
+    input {
+        display: inline-block;
+        width: 60%;
+    }
+
+    input::placeholder {
+        text-align: center;
+        font-size: 10px;
+        color: red;
+    }
+
+    .submit {
+        width: 90%;
+        display: block;
+        padding: 10px;
+        margin: 15px 0px;
+        font-size: 20px;
+        background-color: rgba(58, 253, 58, 0.678);
+        border: none;
+        color: white;
+        margin-top: 16px;
+        margin-left: 16px;
+        text-align: center;
+    }
+}

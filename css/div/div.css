@@ -1,0 +1,35 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: black;
+}
+
+.container {
+    background-color: orange;
+    width: 600px;
+    height: 650px;
+    position: relative;
+}
+
+.hed {
+    background-color: red;
+    width: 600px;
+    height: 325px;
+}
+
+img {
+    height: 300px;
+    width: 400px;
+    padding-top: 170px;
+    padding-left: 100px;
+    position: absolute;
+}
+
+p {
+    position: absolute;
+    top: -20px;
+    left: 0px;
+}

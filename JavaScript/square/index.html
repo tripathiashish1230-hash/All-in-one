@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            text-align: center;
+            color: white;
+            background: linear-gradient(to right, purple, rgb(241, 222, 222), red, green, blue, pink, yellow, chocolate);
+        }
+    </style>
+</head>
+
+<body>
+
+    <script>
+        // gb color , link
+        function color() {
+            document.bgColor = "dogderblue";
+        }
+        function link() {
+            open("https://www.youtube.com/watch?v=EiueuBPAzw8&list=RDEiueuBPAzw8&start_radio=1");
+        }
+        <!-- square -->
+        function square() {
+            let a = document.getElementById("value").value;
+            document.getElementById("demo").innerHTML = ("square of " + a + " = " + a * a)
+        }
+        function qube() {
+            let a = document.getElementById("value").value;
+            document.getElementById("demo").innerHTML = ("qube of " + a + " = " + a * a * a)
+        }
+        function clean() {
+            let a = document.getElementById("value").value = "";
+            document.getElementById("demo").innerHTML = ""
+        }
+        // addition
+        function addition() {
+            let n = parseInt(document.getElementById("number1").value);
+            let m = parseInt(document.getElementById("number2").value);
+            let sum = n + m;
+
+            document.getElementById("demo0").innerHTML = sum
+        }
+        function substract() {
+            let n = parseInt(document.getElementById("number1").value);
+            let m = parseInt(document.getElementById("number2").value);
+            let sum = n - m;
+
+            document.getElementById("demo0").innerHTML = sum
+        }
+        function multiple() {
+            let n = parseInt(document.getElementById("number1").value);
+            let m = parseInt(document.getElementById("number2").value);
+            let sum = n * m;
+
+            document.getElementById("demo0").innerHTML = sum
+        }
+        function division() {
+            let n = parseInt(document.getElementById("number1").value);
+            let m = parseInt(document.getElementById("number2").value);
+            let sum = n / m;
+            document.getElementById("demo0").innerHTML = sum
+        }
+        function clean1() {
+            let n = parseInt(document.getElementById("number1").value = "");
+            let m = parseInt(document.getElementById("number2").value = "");
+            let sum = n / m;
+            document.getElementById("demo0").innerHTML = ""
+        }
+    </script>
+
+    <button style="height: 30px; width: 80px; color: white; background-color: black; margin-top: 0px;" type="button"
+        onclick="color()">
+        bg color</button>
+    <button style="height: 40px; width: 100px; color: white; background-color: rgb(153, 31, 31);" type="button"
+        onclick="link()"> youtube favorile song</button>
+    <br>
+    <!-- bg color, link -->
+
+    <input style="height: 40px; width: 100px; background-color: rgb(255, 255, 255); margin-top: 10px;" type="text"
+        id="value">
+    <button style="height: 40px; width: 100px; color: white; background-color: rgb(153, 31, 31);" type="button"
+        onclick="square()"> square</button>
+    <button style="height: 40px; width: 100px; color: white; background-color: rgb(153, 31, 31);" type="button"
+        onclick="qube()"> Qube</button>
+    <button style="height: 40px; width: 100px; color: white; background-color: rgb(153, 31, 31);" type="button"
+        onclick="clean()"> Clear</button>
+
+    <p id="demo"></p>
+    <!-- addition -->
+    <input style="height: 40px; width: 100px;" type="number" id="number1" required placeholder="first value">
+    <input style="height: 40px; width: 150px;" type="number" id="number2" required placeholder="secomnd value">
+    <button style="height: 40px; width: 100px; color: white; background-color: rgb(153, 31, 31);" type="button"
+        onclick="addition()"> addition</button>
+    <button style="height: 40px; width: 100px; color: white; background-color: rgb(153, 31, 31);" type="button"
+        onclick="substract()"> substract</button>
+    <button style="height: 40px; width: 100px; color: white; background-color: rgb(153, 31, 31);" type="button"
+        onclick="multiple()"> multiply</button>
+    <button style="height: 40px; width: 100px; color: white; background-color: rgb(153, 31, 31);" type="button"
+        onclick="division()"> division</button>
+    <button style="height: 40px; width: 100px; color: white; background-color: rgb(153, 31, 31);" type="button"
+        onclick="clean1()"> Clear</button>
+    <p id="demo0"></p>
+    <h1>Style by Ashish Tripathi </h1>
+</body>
+
+</html>

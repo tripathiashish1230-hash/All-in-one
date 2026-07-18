@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> color page </title>
+</head>
+
+<h1 style = "border:20px dotted violet; background-color:DodgerBlue"> hello html </h1>
+<p style =" color:DodgerBlue;"> hello html </p>
+<h3 style =" border : 5px dashed lightgray;color: purple"> hello html </h>
+
+
+
+
+

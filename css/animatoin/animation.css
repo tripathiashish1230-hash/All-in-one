@@ -1,0 +1,100 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #0a0a0a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+
+
+}
+
+.ani {
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    padding: 10px;
+    text-transform: capitalize;
+    color: white;
+    padding-top: 10px;
+    font-size: 40px;
+    overflow: hidden;
+    white-space: nowrap;
+
+
+}
+
+p {
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in, ease-in;
+    animation-name: gooo;
+
+}
+
+@keyframes gooo {
+    from {
+        margin-left: 100%;
+    }
+
+    to {
+        margin-left: -150%;
+    }
+}
+
+.container {
+    padding: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0;
+}
+
+.box {
+    height: 100px;
+    width: 200px;
+    animation-name: moving;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    position: absolute;
+}
+
+@keyframes moving {
+
+    0% {
+        background-color: orange;
+        top: 20px;
+        left: 20px;
+    }
+
+    25% {
+        background-color: blue;
+        top: 20px;
+        left: 1150px;
+    }
+
+    50% {
+        background-color: rgb(0, 255, 136);
+        animation-duration: 2s;
+        top: 530px;
+        left: 1150px;
+    }
+
+    75% {
+        background-color: blue;
+        animation-duration: 2s;
+        top: 530px;
+        left: 20px;
+    }
+
+    100% {
+        background-color: rgb(255, 166, 0);
+        animation-duration: 2s;
+        top: 20px;
+        left: 20px;
+    }
+
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+     
+    /* body {background-color:#ffc400;} */
+     h1{color:#a800ff;
+        margin:50px
+     }
+     p{color:#a8ffff;
+       border: 5px dotted #ee82ee; 
+       padding-left:100px;
+       padding-right:100px;
+       font-size: 25px;
+        margin:50px
+     }
+          
+    </style>
+     
+<title> css page </title>
+</head>
+<body>
+
+<h1> Shree Sita Ram </h1>
+<p> Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram  </p>
+<p> Ram Ram Ram Ram  </p>
+
+
+
+
+</body>
+</html>

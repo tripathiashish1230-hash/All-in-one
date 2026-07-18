@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2 style="background-color: red;">do..while</h2>
+    <script>
+        let i = 1;
+
+        do {
+            document.write(i, "<br>");
+            i++;
+        } while (i <= 5);
+    </script>
+    <h2 style="background-color: green;">for..of</h2>
+    <script>
+        let fruits = ["Apple", "Banana", "Mango"];
+
+        for (let fruit of fruits) {
+            document.write(fruit, "<br>");
+        }
+    </script>
+    <h2 style="background-color: plum;">for..in</h2>
+    <script>
+        let person = {
+            name: ":Ashish",
+            age: ":24"
+        };
+
+        for (let key in person) {
+            document.write(key, person[key], "<br>");
+        }
+    </script>
+</body>
+
+</html>
